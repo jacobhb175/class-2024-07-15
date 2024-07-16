@@ -4,7 +4,15 @@ format: html
 ---
 
 Broad topic: Does race affect employment?
-Specific question: Do White-sounding names recieve callbacks more often than African-American-sounding names?
+Specific question: Do White-sounding names recieve callbacks more often than African American-sounding names?
+Preceptor table: 
+  Units: Resumes
+  Outcome: Callback Y/N
+  Potential outcomes: Callback with White name, callback with Black name
+  Covariates: Race, job type, resume quality, city, gender
+  Treatment: Being assigned a White or Black sounding name
+  Type: Causal
+  
 
 ```{r}
 #| echo: false
